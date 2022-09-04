@@ -40,5 +40,61 @@ a {
 }
 
 .hero {
-    background-color: #1F2937
+    background-color: #1F2937;
+    display: flex;
+    justify-content: space-between;
+    padding: 0 250px 100px;
+}
+
+.hero h1 {
+    font-size: 48px;
+    font-weight: bolder;
+    color: #F9FAF8;
+    margin-top: 0;
+    margin-bottom: 0px;
+}
+
+.hero p {
+    font-size: 18px;
+    color: #E5E7EB;
+    margin-top: 10px;
+    margin-bottom: 0px;
+}
+
+.hero-left {
+    max-width: 35%;
+    min-width: 20%;
+}
+
+.hero-right {
+   max-width: 50%;
+}
+
+.hero-left button {
+    background-color: #3882f2;
+    padding: 10px 30px;
+    margin: 25px 0 0;
+    color:#F9FAF8;
+    font-weight:bold;
+    border-radius: 6px;
+    border: none;
+}
+
+.information {
+    background-color: #FFFFFF;
+    padding: 0 250px;
+}
+
+.information h2 {
+    font-size: 36px;
+    font-weight: bolder;
+    color:#1F2937
+}
+
+.quote {
+    background-color:#E5E7EB;
+    font-size: 36px;
+    font-weight: light;
+    font-style: italic;
+    color:#1F2937
 }
