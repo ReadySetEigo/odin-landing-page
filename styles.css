@@ -80,15 +80,31 @@ a {
     border: none;
 }
 
-.information {
+.infoheader h2 {
+    font-size: 36px;
+    font-weight: bolder;
+    color:#1F2937;
     background-color: #FFFFFF;
     padding: 0 250px;
 }
 
-.information h2 {
-    font-size: 36px;
-    font-weight: bolder;
-    color:#1F2937
+.information{
+    display:flex;
+    flex-direction:row;
+    justify-content: space-evenly;
+    align-items:center;
+    background-color: #FFFFFF;
+    padding: 30px 300px 100px;
+}
+
+.information div {
+    max-width:150px;
+    text-align: center;
+}
+
+.information img {
+    border: 3px solid #3882F6;
+    border-radius: 13px;
 }
 
 .quote {
@@ -96,5 +112,45 @@ a {
     font-size: 36px;
     font-weight: light;
     font-style: italic;
-    color:#1F2937
+    color:#1F2937;
+    padding: 75px 475px;
 }
+
+.cta-container {
+    background-color:#FFFFFF;
+    padding:50px 500px;
+}
+
+.cta {
+    background-color:#3882F6;
+    padding: 20px 0px;
+    color: #f9faf8;
+    display:flex;
+    justify-content: space-around;
+    align-items:center;
+    border: 2px solid #3882F6;
+    border-radius: 13px;
+    margin:auto;
+}
+
+.cta button {
+    width: 100px;
+    height: 40px;
+    color: #f9faf8;
+    background-color:#3882F6;
+    border: solid 2px #f9faf8;
+    font-weight:bold;
+}
+
+.copyright-container {
+    background-color: #1F2937;
+}
+
+.copyright {
+    padding: 20px 0px;
+    display: flex;
+    justify-content:center;
+    align-items:center;
+    color:#ffffff;
+}
+
